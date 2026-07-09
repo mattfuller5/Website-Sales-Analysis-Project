@@ -148,7 +148,7 @@ Example business insights include:
 ## Repository Structure
 
 ```
-website-sales-analysis/
+Website-Sales-Analysis-Project/
 │
 ├── data/
 │   └── sample_data.csv
