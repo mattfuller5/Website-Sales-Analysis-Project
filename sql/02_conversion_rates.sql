@@ -16,3 +16,21 @@ WITH funnel_stages AS (
 )
 
 SELECT * FROM funnel_stages
+
+SELECT
+
+    stage_1_views,
+    stage_2_cart,
+    ROUND(stage_2_cart * 100/stage_1_views) AS view_to_cart_rate,
+
+    stage_3_checkout,
+    ROUND(stage_3_checkout * 100/stage_2_cart) AS cart_to_checkout_rate,
+
+    stage_4_payment,
+    ROUND(stage_4_payment * 100/stage_3_checkout) AS checkout_to_payment_rate,
+
+    stage_5_purchase,
+    ROUND(stage_5_purchase * 100/stage_4_payment) AS payment_to_purchase_rate,
+
+    ROUND(stage_5_purchase * 100/stage_1_views) AS overall_conversion_rate
+  FROM funnel_stages
