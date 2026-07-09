@@ -1,5 +1,7 @@
 SELECT * FROM `project-1a7f0a69-00af-4bc7-9b9.sql_practice.user_events` LIMIT 1000
 
+-- define sales funnel and the different stages 
+
 WITH funnel_stages AS (
   SELECT
     COUNT(DISTINCT CASE WHEN event_type = 'page_view' THEN user_id END) AS stage_1_views,
