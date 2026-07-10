@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project analyses customer behaviour across an e-commerce website using **BigQuery SQL** and **Power BI**.
+This project analyses customer behaviour across an e-commerce website using **BigQuery SQL** and **Tableau**.
 
 The aim was to understand how users progress through the sales funnel, identify where customers drop off, evaluate the performance of different traffic sources, and analyse revenue generated from website visitors.
 
-The results were then visualised in an interactive Power BI dashboard to provide clear business insights.
+The results were then visualised in an interactive Tableau dashboard to provide clear business insights.
 
 ---
 
@@ -14,7 +14,7 @@ The results were then visualised in an interactive Power BI dashboard to provide
 
 - BigQuery SQL
 - Google Cloud Platform (BigQuery)
-- Power BI
+- Tableau
 - GitHub
 
 ---
@@ -118,9 +118,9 @@ Calculated business performance metrics including:
 
 ---
 
-# Power BI Dashboard
+# PTableau Dashboard
 
-The SQL outputs were imported into Power BI to build an interactive dashboard.
+The SQL outputs were imported into Tableau to build an interactive dashboard.
 
 The dashboard includes:
 
@@ -160,8 +160,8 @@ Website-Sales-Analysis-Project/
 │   ├── 04_customer_journey.sql
 │   └── 05_revenue_analysis.sql
 │
-├── powerbi/
-│   ├── Website Sales Dashboard.pbix
+├── Tableau/
+│   ├── Website Sales Dashboard.twb
 │   └── dashboard.png
 │
 ├── images/
@@ -183,7 +183,7 @@ Website-Sales-Analysis-Project/
 - Business Analytics
 - Data Cleaning
 - KPI Development
-- Power BI Dashboard Design
+- Tableau Dashboard Design
 - Data Visualisation
 - Business Insight Generation
 
