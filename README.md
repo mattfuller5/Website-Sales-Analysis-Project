@@ -118,7 +118,7 @@ Calculated business performance metrics including:
 
 ---
 
-# PTableau Dashboard
+# Tableau Dashboard
 
 The SQL outputs were imported into Tableau to build an interactive dashboard.
 
@@ -165,9 +165,9 @@ Website-Sales-Analysis-Project/
 │   └── dashboard.png
 │
 ├── images/
-│   ├── funnel.png
-│   ├── revenue.png
-│   └── traffic_sources.png
+│   ├── funnel_chart.png
+│   ├── traffic_sources.png
+│   └── conversion_rates.png
 │
 └── README.md
 ```
