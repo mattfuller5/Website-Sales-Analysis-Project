@@ -1,4 +1,4 @@
-# Website Sales Performance Analysis
+# E-Commerce Sales Funnel Analysis
 
 ## Project Overview
 
@@ -124,24 +124,21 @@ The SQL outputs were imported into Tableau to build an interactive dashboard.
 
 The dashboard includes:
 
-- KPI Cards
-- Sales Funnel
-- Revenue by Traffic Source
-- Conversion Rates
-- Customer Journey Metrics
-- Revenue Summary
+- KPI cards (Visitors, Buyers, Revenue and Average Order Value)
+- Sales Funnel visualisation
+- Purchases by Traffic Source
+- Conversion Rate summary
+- Average Customer Journey metrics
 
 ---
 
 ## Key Insights
 
-Example business insights include:
-
-- Most users leave the website before reaching checkout.
-- Organic Search generated the highest number of purchases.
-- Average Order Value highlights customer spending behaviour.
-- Revenue per Visitor helps evaluate marketing effectiveness.
-- Funnel analysis identifies the biggest drop-off points.
+- Over 5,000 visitors entered the sales funnel, with 826 completing a purchase.
+- The largest customer drop-off occurred between the Page View and Add to Cart stages.
+- Organic traffic generated the highest number of purchases.
+- Customers took approximately 25 minutes on average to complete their purchasing journey.
+- The average order value was £106.51.
 
 ---
 
